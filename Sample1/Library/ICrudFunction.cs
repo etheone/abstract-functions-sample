@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Sample1;
+namespace Sample1.Library;
 
 public interface ICrudFunction<in TModelCreate, TModel> where TModel : TModelCreate
 {

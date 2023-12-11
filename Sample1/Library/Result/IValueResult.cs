@@ -1,4 +1,4 @@
-﻿namespace Sample1;
+﻿namespace Sample1.Library.Result;
 
 /// <summary>
 /// 

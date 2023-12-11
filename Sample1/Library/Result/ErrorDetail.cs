@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Sample1;
+namespace Sample1.Library.Result;
 
 /// <summary>
 /// 
@@ -12,7 +12,7 @@ public class ErrorDetail
 
     }
 
-    public ErrorDetail(HttpStatusCode statusCode, string? reasonPhrase, string? content)
+    public ErrorDetail(HttpStatusCode statusCode, string reasonPhrase, string content)
     {
 
     }

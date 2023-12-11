@@ -1,4 +1,6 @@
-﻿namespace Sample1;
+﻿using Sample1.Library.Result;
+
+namespace Sample1.Library;
 
 public interface ICrudService<in TModelCreate, TModel> where TModel : TModelCreate
 {

@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
+using Sample1.Library.Result;
 
-namespace Sample1;
+namespace Sample1.Library;
 
 public abstract class CrudFunctions<TModelCreate, TModel> : ICrudFunction<TModelCreate, TModel>
     where TModel : TModelCreate
